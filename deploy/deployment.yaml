@@ -22,4 +22,4 @@ spec:
             - containerPort: 8080
           env:
             - name: DATABASE_URI
-              value: "postgresql://postgres:postgres@postgresql:5432/postgres"
+              value: "sqlite:////tmp/accounts.db"
